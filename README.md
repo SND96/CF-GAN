@@ -37,4 +37,4 @@ python train.py       --dataset street       --dataroot datasets/street       --
 ```
 
 #### Samples
-* The sample images will be saved in the images folde by default. Modify this with the appropriate argument in the script call.
+* The sample images will be saved in the images folder by default. Modify the location with the appropriate argument in the script call.
