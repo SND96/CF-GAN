@@ -20,3 +20,21 @@ Also add the path to where you want the model to be saved.
 #### Testing
 * Use CycleGAN-keras-test.ipynb and add the paths to where the model has been saved.
 
+### LRGAN
+
+#### Prerequisites
+1. Python 2.7 with Pytorch
+
+#### Input format
+* Add the dataset that you want to use to the 'datasets' folder according to this format : Data/Folders_of_images/image.jpg
+* Note that for the pytorch dataloader to work, the folder that you pass must contain sub-folders containing the images. Pytorch assumes each of these sub-folders is a class. 
+* Since classes are not important for the training of this model, there can be a separate folder for each image
+
+#### Running the script
+* Use this command to run the script with the appropriate arguments. More information about the arguments is found in the train.py file
+```
+python train.py       --dataset street       --dataroot datasets/street       --ntimestep 2       --imageSize 64       --maxobjscale 1.2       --niter 100       --session 1
+```
+
+#### Samples
+* The sample images will be saved in the images folde by default. Modify this with the appropriate argument in the script call.
