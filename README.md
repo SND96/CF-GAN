@@ -1,6 +1,6 @@
 #  Cognitive Fashion using Generative Adversarial Networks
 
-### CycleGAN
+## CycleGAN
 
 #### Prerequisites
 1. Python 3 with Keras 2.0 and Tensorflow (1.7) backend
@@ -20,7 +20,9 @@ Also add the path to where you want the model to be saved.
 #### Testing
 * Use CycleGAN-keras-test.ipynb and add the paths to where the model has been saved.
 
-### LRGAN
+---
+
+## LRGAN
 
 #### Prerequisites
 1. Python 2.7 with Pytorch
